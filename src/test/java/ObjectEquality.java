@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-import com.roman.tp2testdrivenassign2.java.PersonClass;
+//import com.roman.tp2testdrivenassign2.java.PersonClass;
 import org.testng.Assert;
 
 import static org.testng.Assert.*;
@@ -18,6 +18,11 @@ import org.testng.annotations.Test;
  *
  * @author Roman
  */
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 public class ObjectEquality {
     private PersonClass person;
     private PersonClass person2;

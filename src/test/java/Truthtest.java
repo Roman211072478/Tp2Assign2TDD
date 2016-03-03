@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-import com.roman.tp2testdrivenassign2.java.PersonClass;
+//import com.roman.tp2testdrivenassign2.java.PersonClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

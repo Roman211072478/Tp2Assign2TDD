@@ -28,7 +28,7 @@ public class ArrrayContentTest {
     //
      @Test(expectedExceptions = IndexOutOfBoundsException.class)
     public void testArray() {
-     List numbers = new ArrayList<>();
+     List numbers = new ArrayList();
      
      numbers.get(1);
         

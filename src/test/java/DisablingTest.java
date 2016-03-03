@@ -28,7 +28,7 @@ public class DisablingTest {
     @Test(enabled = false)
     public void testDisable() {
         // this test will fail if the test is enabled
-    Assert.fail();
+    Assert.fail("The test wasnt disabled");
     }
     
     @Test

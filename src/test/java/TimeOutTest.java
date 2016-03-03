@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import com.roman.tp2testdrivenassign2.java.PersonClass;
+//import com.roman.tp2testdrivenassign2.java.PersonClass;
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +20,8 @@ import org.testng.annotations.Test;
  *
  * @author Roman
  */
+
+import org.testng.annotations.*;
 public class TimeOutTest {
     
     public TimeOutTest() {
@@ -54,7 +56,7 @@ public class TimeOutTest {
       
      @Test(expectedExceptions = IndexOutOfBoundsException.class) 
      public void outOfBounds() {
-       List nums = new ArrayList<>();
+       List nums = new ArrayList();
        
        nums.get(1);//This will throw an exception due to the list having no elements
                    //-the index of 1 does not exist, and is out of the bound of indexes

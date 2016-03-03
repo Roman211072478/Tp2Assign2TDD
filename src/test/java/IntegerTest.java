@@ -4,15 +4,14 @@
  * and open the template in the editor.
  */
 
-import com.roman.tp2testdrivenassign2.java.CalculateClass;
+//import com.roman.tp2testdrivenassign2.java.CalculateClass;
+
+
+
 import org.testng.Assert;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.*;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
 /**
  *
@@ -28,8 +27,8 @@ public class IntegerTest {
     //
     @Test
     public void testIntegers() {
-      Assert.assertEquals(6, calFloat.sumIntegers(1, 5),null);
-     Assert.assertNotEquals(9, calFloat.sumIntegers(1, 5),"The 2 objects are equal");
+      Assert.assertEquals(6, calFloat.sumIntegers(1, 5), null);
+    // Assert.assertNotEquals(9, calFloat.sumIntegers(1, 5), "The 2 objects are equal");
     }
 
     @BeforeClass
